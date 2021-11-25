@@ -1,0 +1,107 @@
+{
+    "ServiceLevelCode": null,
+    "IsVASRequired": "#{vasIns}",
+    "OrderCaptureDate": "#{OrderCaptureDate}",
+    "ShipFromLocationId": "#{ShipFrom}",
+    "Extended": {
+        "IsResidential": null,
+        "PerfectFitNumber": null,
+        "PaymentMethod": null,
+        "GiftMessage": null
+    },
+    "OrganizationId": "#{OrganizationId}",
+    "Source": "CS",
+    "FulfillmentId": "#{FulfillmentId}",
+    "FulfillmentStatusId": "1000.000",
+    "FulfillmentAddress": [
+        {
+            "AddressTypeId": {
+                "AddressTypeId": "Billing"
+            },
+            "Address": {
+                "FirstName": "#{FirstName}",
+                "LastName": "#{LastName}"
+            },
+            "FulfillmentAddressId": "1"
+        }
+    ],
+    "CustomerPhone": "null",
+    "IsGift": "false",
+    "CustomerFirstName": "#{FirstName}",
+    "CustomerEmail": "#{email}",
+    "FulfillmentLine": [
+        {
+            "ItemUnitPrice": "399.99",
+            "WeightUOM": "LB",
+            "IsHazmat": "false",
+            "Extended": {
+                "Comments": "null"
+            },
+            "OrderId": "#{OrderId}",
+            "ItemId": "TMW10M640201",
+            "ItemDescription": "JAH SV MOD BLZR",
+            "ItemUnitWeight": "1",
+            "SupplyTypeId": "OnHand",
+            "FulfillmentLineStatusId": "1000.000",
+            "ItemColor": "01",
+            "FulfillmentLineId": "1",
+            "OrderLineId": "#{OrderId}",
+            "ItemStyle": "10M6",
+            "PipelineId": "FULFILLMENT_EXECUTION",
+            "ItemSize": "402",
+            "OrderedQty": "1",
+            "QuantityUom": "U"
+        }
+    ],
+    "OrderTypeId": "#{OrderTypeId}",
+    "DocTypeId": "Customer Order",
+    "ShipToLocationId": "#{ShipTo}",
+    "IsReturnLabelRequired": "false",
+    "FulfillmentPackages": [
+        {
+            "ShipToAddress": {
+                "FirstName": "#{FirstName}",
+                "State": "#{State}",
+                "PostalCode": "#{PostalCode}",
+                "Country": "#{Country}",
+                "LastName": "#{LastName}",
+                "Address1": "#{Address1}",
+                "City": "#{City}",
+                "Phone": "#{Phone}"
+            },
+            "ServiceLevelCode": "#{ShipViaId}",
+            "ShipToLocationId": "#{ShipTo}",
+            "TrackingNumber": null,
+            "ShippedDate": null,
+            "PackageDetail": {
+                "FulfillmentLineId": "1",
+                "Quantity": {
+                    "UOM": {
+                        "Code": "U"
+                    },
+                    "Qty": "1"
+                },
+                "PackageDetailId": null,
+                "ItemId": "TMW10M640201",
+                "FulfillmentId": "#{FulfillmentId}"
+            },
+            "ShipFromLocationId": "#{ShipFrom}",
+            "PackageStatus": "1000.000",
+            "PackageTypeId": null,
+            "FulfillmentId": null,
+            "CurrentLocationId": "#{ShipFrom}",
+            "ReceiptType": "ReceiveByPackage",
+            "PackageId": null,
+            "DeliveryType": null
+        }
+    ],
+    "DeliveryMethodId": "PickUpAtStore",
+    "DestinationActionId": "PICKUP",
+    "ShipViaId": "#{ShipViaId}",
+    "ShippingDueDate": "#{dueDate}",
+    "CustomerLastName": "#{LastName}",
+    "DeliveryDueDate": "#{dueDate}",
+    "FulfillmentLineInstruction": [
+        {}
+    ]
+}

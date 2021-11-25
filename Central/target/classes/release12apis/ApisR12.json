@@ -1,0 +1,68 @@
+{
+  "add_remove_inventory": {
+    "RequestType": "POST",
+    "endPoint": "/inventory/api/inventory/supply/supplyEvent",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "SupplyEvent": "SupplyEvent"
+    }
+  },
+  "check_inventory": {
+    "RequestType": "POST",
+    "endPoint": "/inventory/api/inventory/get/supply",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "GetSupply": "GetSupply"
+    }
+  },
+  "place_order": {
+    "RequestType": "POST",
+    "endPoint": "/order/api/order/order/save",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "placeOrder": "placeOrder"
+    }
+  },
+  "order_search": {
+    "RequestType": "POST",
+    "endPoint": "/order/api/order/order/search",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "Query": "OrderId='OrderId'"
+    }
+  },
+  "tran_log": {
+    "RequestType": "POST",
+    "endPoint": "/xint/api/tranlog/status/summary",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "map": "tranlog"
+    }
+  },
+  "ship_confirm": {
+    "RequestType": "POST",
+    "endPoint": "/order/api/order/orderevent/receive",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "OrderEvent": "OrderEvent"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "IsVASRequired": "#{vasIns}",
+  "OrderCaptureDate": "#{OrderCaptureDate}",
+  "ShipFromLocationId": "#{ShipFrom}",
+  "Extended": {
+    "IsResidential": "false",
+    "PerfectFitNumber": "null",
+    "PaymentMethod": "null",
+    "GiftMessage": "#{giftMsg}"
+  },
+  "OrganizationId": "#{OrganizationId}",
+  "Source": "CS",
+  "FulfillmentId": "#{FulfillmentId}",
+  "FulfillmentStatusId": "1000.000",
+  "FulfillmentAddress": [
+    {
+      "AddressTypeId": {
+        "AddressTypeId": "Shipping"
+      },
+      "Address": {
+        "FirstName": "#{FirstName}",
+        "State": "#{State}",
+        "PostalCode": "#{PostalCode}",
+        "Country": "#{Country}",
+        "LastName": "#{LastName}",
+        "Address1": "#{Address1}",
+        "City": "#{City}",
+        "Phone": "#{Phone}"
+      },
+      "FulfillmentAddressId": "2"
+    },
+    {
+      "AddressTypeId": {
+        "AddressTypeId": "Billing"
+      },
+      "Address": {
+        "Email": "#{email}",
+        "FirstName": "#{FirstName}",
+        "State": "#{State}",
+        "PostalCode": "#{PostalCode}",
+        "Country": "#{Country}",
+        "LastName": "#{LastName}",
+        "Address1": "#{Address1}",
+        "City": "#{City}",
+        "Phone": "#{Phone}"
+      },
+      "FulfillmentAddressId": "1"
+    }
+  ],
+  "CustomerPhone": "null",
+  "IsGift": "false",
+  "CustomerFirstName": "#{FirstName}",
+  "CustomerEmail": "#{email}",
+  "FulfillmentLine": [
+    {
+      "ItemUnitPrice": "299.99",
+      "WeightUOM": "LB",
+      "IsHazmat": "false",
+      "Extended": {
+        "Comments": "null"
+      },
+      "OrderId": "#{OrderId}",
+      "ItemId": "TMW31EP38102",
+      "ItemDescription": "EGARA ORANGE X",
+      "ItemUnitWeight": "1",
+      "SupplyTypeId": "OnHand",
+      "FulfillmentLineStatusId": "1000.000",
+      "ItemColor": "02",
+      "FulfillmentLineId": "1",
+      "OrderLineId": "#{OrderId}",
+      "ItemStyle": "MW31",
+      "PipelineId": "FULFILLMENT_EXECUTION",
+      "ItemSize": "381",
+      "OrderedQty": "1",
+      "QuantityUom": "U"
+    }
+  ],
+  "OrderTypeId": "#{OrderTypeId}",
+  "DocTypeId": "Customer Order",
+  "IsReturnLabelRequired": "false",
+  "FulfillmentPackages": [
+    {
+      "ShipToAddress": {
+        "FirstName": "#{FirstName}",
+        "State": "#{State}",
+        "PostalCode": "#{PostalCode}",
+        "Country": "#{Country}",
+        "LastName": "#{LastName}",
+        "Address1": "#{Address1}",
+        "City": "#{City}",
+        "Phone": "#{Phone}"
+      },
+      "TrackingNumber": null,
+      "ShippedDate": null,
+      "PackageDetail": {
+        "FulfillmentLineId": "1",
+        "Quantity": {
+          "UOM": {
+            "Code": "U"
+          },
+          "Qty": "1"
+        },
+        "PackageDetailId": null,
+        "ItemId": "TMW31EP38102",
+        "FulfillmentId": "#{FulfillmentId}"
+      },
+      "ShipFromLocationId": "#{ShipFrom}",
+      "PackageStatus": "1000.000",
+      "PackageTypeId": null,
+      "FulfillmentId": null,
+      "CurrentLocationId": "#{ShipFrom}",
+      "ReceiptType": "ReceiveByPackage",
+      "PackageId": null,
+      "DeliveryType": null
+    }
+  ],
+  "DeliveryMethodId": "ShipToAddress",
+  "DestinationActionId": null,
+  "ShipViaId": "#{ShipViaId}",
+  "ShippingDueDate": "#{dueDate}",
+  "CustomerLastName": "#{LastName}",
+  "DeliveryDueDate": "#{dueDate}",
+  "FulfillmentLineInstruction": [
+    {}
+  ]
+}

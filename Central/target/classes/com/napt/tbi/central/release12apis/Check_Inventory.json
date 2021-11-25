@@ -1,0 +1,10 @@
+{
+  "IncludeErroredSupply": "false",
+  "Items": [
+    "#{ItemId}"
+  ],
+  "Locations": [
+    "#{LocationId}"
+  ],
+  "ViewId": "#{ViewName}"
+}

@@ -1,0 +1,26 @@
+{
+  "ExternalMessageId": "013837172",
+  "OrderEvent": [
+    {
+      "ExternalMessageId": "013837172",
+      "EventTypeId": "Ship",
+      "ReleaseId": "#{OrderId}",
+      "ReleaseLineId": "#{ReleaseLineId}",
+      "Item": "#{Item}",
+      "Quantity": 1,
+      "UOM": "U",
+      "FulfillmentInfo": {
+        "PackageId": "LPN_001",
+        "PackageDetailId": "1",
+        "TrackingNumber": "PJXY34261129729UQ",
+        "ShipViaId": "AIR",
+        "ServiceLevelCode": "2D",
+        "CarrierCode": "USPS",
+        "ShipmentId": "ASN0012761",
+        "FulfillmentId": "FUL01",
+        "FulfillmentDetailId": "0001",
+        "EventDate": "2019-12-30T00:00:00"
+      }
+    }
+  ]
+}
