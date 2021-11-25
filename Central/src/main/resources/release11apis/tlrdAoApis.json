@@ -1,0 +1,135 @@
+{
+  "auth_api_endpoint": {
+    "RequestType": "POST",
+    "endPoint": "/oauth/token",
+    "queryParam": {
+      "grant_type": "password",
+      "username": "user",
+      "password": "pass"
+    },
+    "auth": {
+      "user": "user",
+      "pass": "pass"
+    }
+  },
+  "create_order_api": {
+    "RequestType": "POST",
+    "endPoint": "/fulfillment/api/fulfillment/fulfillment/save",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "CreateOrder": "orderJson"
+    }
+  },
+  "get_fulfillment_status": {
+    "RequestType": "GET",
+    "endPoint": "/fulfillment/api/fulfillment/fulfillment/fulfillmentId/{FullfilmentNo}",
+    "pathParam": {
+      "FullfilmentNo": "FullfilmentNo"
+    },
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    }
+  },
+  "get_TaskgroupId": {
+    "RequestType": "GET",
+    "endPoint": "/fulfillment/api/fulfillment/taskGroup/list/inProgressTaskGroups",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken",
+      "Location": "5408"
+    }
+  },
+  "cancel_TaskgroupId": {
+    "RequestType": "POST",
+    "endPoint": "/fulfillment/api/fulfillment/taskGroup/cancelTaskGroup",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken",
+      "Location": "5408"
+    },
+    "body": {
+      "TaskGroupId": "orderJson"
+    }
+  },
+  "execute_shipment_job": {
+    "RequestType": "POST",
+    "endPoint": "/fulfillment/api/batch/jobSchedule/trigger",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "JobScheduleId": "jobNameJson"
+    }
+  },
+  "add_remove_inventory": {
+    "RequestType": "POST",
+    "endPoint": "/inventory/api/inventory/supply/supplyEvent",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "SupplyEvent": "SupplyEvent"
+    }
+  },
+  "check_inventory": {
+    "RequestType": "POST",
+    "endPoint": "/inventory/api/inventory/get/supply",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "GetSupply": "GetSupply"
+    }
+  },
+  "place_order": {
+    "RequestType": "POST",
+    "endPoint": "/order/api/order/order/save",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "placeOrder": "placeOrder"
+    }
+  },
+  "order_search": {
+    "RequestType": "POST",
+    "endPoint": "/order/api/order/order/search",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "Query": "OrderId='OrderId'"
+    }
+  },
+  "tran_log": {
+    "RequestType": "POST",
+    "endPoint": "/xint/api/tranlog/status/summary",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "map": "tranlog"
+    }
+  },
+  "ship_confirm": {
+    "RequestType": "POST",
+    "endPoint": "/order/api/order/orderevent/receive",
+    "header": {
+      "Content-Type": "application/json",
+      "Authorization": "AccessToken"
+    },
+    "body": {
+      "OrderEvent": "OrderEvent"
+    }
+  }
+}

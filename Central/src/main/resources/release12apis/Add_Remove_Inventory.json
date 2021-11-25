@@ -1,0 +1,19 @@
+{
+  "SupplyEvent": [
+    {
+      "TransactionTypeId": "Adjustment",
+      "SupplyDefinition": {
+        "ItemId": "#{ItemId}",
+        "LocationId": "#{LocationId}",
+        "SupplyType": {
+          "SupplyTypeId": "On Hand Available"
+        },
+        "SupplyData": {
+          "Quantity": "#{Quantity}",
+          "UOM": "U",
+          "QuantityAdjustmentType": "#{QAType}"
+        }
+      }
+    }
+  ]
+}
