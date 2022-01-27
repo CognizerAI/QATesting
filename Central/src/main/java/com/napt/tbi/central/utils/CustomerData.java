@@ -13,6 +13,7 @@ public class CustomerData {
             // generate a random number between 0 to AlphaNumericString variable length
             int index= (int) (Math.random() * AlphaNumericString.length());
             // add Character one by one in end of sb
+            //adde on 27th Jan
             sb.append(AlphaNumericString.charAt(index));
         }
         return sb.toString();
