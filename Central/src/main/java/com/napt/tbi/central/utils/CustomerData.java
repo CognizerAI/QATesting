@@ -14,6 +14,7 @@ public class CustomerData {
             int index= (int) (Math.random() * AlphaNumericString.length());
             // add Character one by one in end of sb
             //adde on 27th Jan
+            //adde on 27th Jan_1
             sb.append(AlphaNumericString.charAt(index));
         }
         return sb.toString();
