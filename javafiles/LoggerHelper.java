@@ -20,5 +20,6 @@ public class LoggerHelper {
 		Logger log = LoggerHelper.getLogger(LoggerHelper.class);
 		log.info("I am test");
 				
+		//adde on 27th Jan
 	}
 }
