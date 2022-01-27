@@ -19,6 +19,7 @@ public class CustomerData {
             //adde on 27th Jan_3
             //adde on 27th Jan_4
             //added on 27th Jan_5
+            //added on 27th Jan_6
             sb.append(AlphaNumericString.charAt(index));
         }
         return sb.toString();
