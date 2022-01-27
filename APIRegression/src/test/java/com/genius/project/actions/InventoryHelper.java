@@ -319,6 +319,7 @@ public class InventoryHelper {
         orderEvent.put("Item", item);
         log.info("Ship confirm Json body is created");
         return shipConfirmJson.toString();
+        //adde on 27th Jan_2
     }
 
 }
