@@ -24,6 +24,10 @@ public class Constants {
 	public static long getImplicitewait() {
 		return impliciteWait;
 	}
+	kljfhs
+		lkjhfkhs
+		kjskfhs
+	jghgkgjgjg
 	jkjkjkj
 		jljk
 	
