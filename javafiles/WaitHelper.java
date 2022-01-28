@@ -23,5 +23,6 @@ public class WaitHelper {
 		wait.until(ExpectedConditions.visibilityOf(element));
 		logger.info("element is visible..");
 	}
+	//adde on 27th Jan
 	
 }

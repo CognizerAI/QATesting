@@ -5,6 +5,7 @@ import io.cucumber.testng.CucumberOptions;
  * The API_R1.2 Test runner
  */
 //@RunWith(Cucumber.class)
+// This is initiator file for autoation testing
 @CucumberOptions(
         features = "features",
         glue = {"com.napt.tbi.projects.ActiveOmni"},
