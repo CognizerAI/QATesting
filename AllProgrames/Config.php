@@ -6,7 +6,7 @@ namespace PhpFromZero\Config;
 use PhpFromZero\Error\ConfigurationError;
 
 /**
- * Configuration variables container
+ * Configuration variables container added comments_24thJan
  *
  * @author Justin Dah-kenangnon <dah.kenangnon@gmail.com>
  * 
