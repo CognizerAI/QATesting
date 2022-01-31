@@ -17,7 +17,7 @@ import java.util.TimeZone;
 public class Common {
 
     private static Logger log = Logger.getLogger(Common.class);
-
+//adde on 27th Jan
     /**
      * Gets a resource file with a given name
      *

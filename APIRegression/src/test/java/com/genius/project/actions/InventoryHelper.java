@@ -26,6 +26,7 @@ import static com.napt.tbi.central.utils.OrderHelper.*;
 
 public class InventoryHelper {
 
+    //adde on 27th Jan
     private static Logger log = Logger.getLogger(InventoryHelper.class);
     private static Response response;
     public static Map<String, String> generatedInfo = new HashMap<>();
@@ -318,6 +319,7 @@ public class InventoryHelper {
         orderEvent.put("Item", item);
         log.info("Ship confirm Json body is created");
         return shipConfirmJson.toString();
+        //adde on 27th Jan_2
     }
 
 }

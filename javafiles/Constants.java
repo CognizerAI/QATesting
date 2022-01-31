@@ -12,9 +12,11 @@ public class Constants {
 	
 	public static String getUsername() {
 		return userName;
+		//adde on 27th Jan
 	}
 	public static String getPassword() {
 		return password;
+		//adde on 27th Jan
 	}
 	public static long getExplicitwait() {
 		return explicitWait;
@@ -22,5 +24,12 @@ public class Constants {
 	public static long getImplicitewait() {
 		return impliciteWait;
 	}
+	kljfhs
+		lkjhfkhs
+		kjskfhs
+	jghgkgjgjg
+	jkjkjkj
+		jljk
+		kjgkh
 	
 }
